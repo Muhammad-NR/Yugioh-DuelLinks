@@ -1,0 +1,21 @@
+{
+  "/api/cards/route": "app/api/cards/route.js",
+  "/api/config/route": "app/api/config/route.js",
+  "/api/cards/[id]/route": "app/api/cards/[id]/route.js",
+  "/api/decks/route": "app/api/decks/route.js",
+  "/api/decks/[id]/route": "app/api/decks/[id]/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/skills/[id]/route": "app/api/skills/[id]/route.js",
+  "/api/skills/route": "app/api/skills/route.js",
+  "/_global-error/page": "app/_global-error/page.js",
+  "/manifest.webmanifest/route": "app/manifest.webmanifest/route.js",
+  "/cards/[id]/page": "app/cards/[id]/page.js",
+  "/about/page": "app/about/page.js",
+  "/cards/page": "app/cards/page.js",
+  "/decks/[id]/page": "app/decks/[id]/page.js",
+  "/decks/page": "app/decks/page.js",
+  "/skill/[id]/page": "app/skill/[id]/page.js",
+  "/page": "app/page.js",
+  "/skill/page": "app/skill/page.js",
+  "/upload/page": "app/upload/page.js"
+}

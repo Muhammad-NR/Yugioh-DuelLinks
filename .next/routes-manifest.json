@@ -1,0 +1,171 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [
+    {
+      "page": "/api/cards/[id]",
+      "regex": "^/api/cards/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/api/cards/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/api/decks/[id]",
+      "regex": "^/api/decks/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/api/decks/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/api/skills/[id]",
+      "regex": "^/api/skills/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/api/skills/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/cards/[id]",
+      "regex": "^/cards/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/cards/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/decks/[id]",
+      "regex": "^/decks/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/decks/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/skill/[id]",
+      "regex": "^/skill/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/skill/(?<nxtPid>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/about",
+      "regex": "^/about(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about(?:/)?$"
+    },
+    {
+      "page": "/api/cards",
+      "regex": "^/api/cards(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/cards(?:/)?$"
+    },
+    {
+      "page": "/api/config",
+      "regex": "^/api/config(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/config(?:/)?$"
+    },
+    {
+      "page": "/api/decks",
+      "regex": "^/api/decks(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/decks(?:/)?$"
+    },
+    {
+      "page": "/api/skills",
+      "regex": "^/api/skills(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/skills(?:/)?$"
+    },
+    {
+      "page": "/cards",
+      "regex": "^/cards(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/cards(?:/)?$"
+    },
+    {
+      "page": "/decks",
+      "regex": "^/decks(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/decks(?:/)?$"
+    },
+    {
+      "page": "/manifest.webmanifest",
+      "regex": "^/manifest\\.webmanifest(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/manifest\\.webmanifest(?:/)?$"
+    },
+    {
+      "page": "/skill",
+      "regex": "^/skill(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/skill(?:/)?$"
+    },
+    {
+      "page": "/upload",
+      "regex": "^/upload(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/upload(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}
