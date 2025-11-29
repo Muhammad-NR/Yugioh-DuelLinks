@@ -3,7 +3,6 @@
 A comprehensive Progressive Web App (PWA) catalog for Yu-Gi-Oh! Duel Links. Built with **Next.js 16**, **TypeScript**, and **Firebase**, designed to provide a seamless mobile experience with full offline capabilities.
 
 ![Project Banner](public/image.png)
-*(Note: Replace this line with a screenshot of your app if you have one)*
 
 ## 🚀 Features
 
